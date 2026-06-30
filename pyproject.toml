@@ -5,18 +5,49 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "redisbrowse"
 version = "0.2.0"
-description = "A simple Textual TUI to view Redis message queues"
+description = "A simple Textual TUI to browse Redis message queues."
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Ivo Theis", email = "ivo.theis@queueforge.dev" }
+]
+
+keywords = [
+    "redis",
+    "textual",
+    "tui",
+    "terminal",
+    "cli",
+    "message-queue",
+    "queue",
+]
+
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Database",
+    "Topic :: System :: Monitoring",
+    "Topic :: Software Development :: Libraries",
 ]
+
 dependencies = [
     "textual>=8.2.7",
     "redis>=8.0.1",
 ]
+
+[project.urls]
+Homepage = "https://queueforge.dev"
+Repository = "https://github.com/QueueForge/redisbrowse"
+Issues = "https://github.com/QueueForge/redisbrowse/issues"
+Releases = "https://github.com/QueueForge/redisbrowse/releases"
 
 [project.scripts]
 redisbrowse = "redisbrowse.app:main"
