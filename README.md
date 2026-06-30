@@ -7,6 +7,10 @@ Built with Python, [Textual](https://github.com/Textualize/textual), and [redis-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 
+## About
+
+**RedisBrowse** is an open-source project developed and maintained by **QueueForge**. It is designed to provide a modern, simple, and intuitive terminal user interface for browsing Redis data and message queues. Learn more about QueueForge at [**https://queueforge.dev**](https://queueforge.dev?utm_source=README&utm_campaign=RedisBrowse).
+
 ---
 
 ## ✨ Features
