@@ -29,8 +29,17 @@ Built with Python, [Textual](https://github.com/Textualize/textual), and [redis-
 
 ## 🛠️ Installation
 
-### Install Locally for Development
-Clone the repository and install the package in editable mode:
+Install RedisBrowse from PyPI:
+
+```bash
+pip install redisbrowse
+```
+
+> Requires Python 3.11 or later.
+
+### Development Installation
+
+If you want to contribute or run the latest development version:
 
 ```bash
 git clone https://github.com/QueueForge/redisbrowse.git
